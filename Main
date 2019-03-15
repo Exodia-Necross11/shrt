@@ -1,0 +1,14 @@
+package exodia.necorss.shrt
+
+import org.bukkit.Bukkit;
+import org.Bukkit.Chatcolor;
+
+public class main extends JavaPlugin {
+
+  public void onEnable() {
+  Bukkit.getConsolesender().sendMessage(Chatcolor.RED + "HIII")
+  }
+  
+  public void onDisable() {
+  Bukkit.getConsolesender().sendMessage(Chatcolor.RED + "BYEE")
+  }
